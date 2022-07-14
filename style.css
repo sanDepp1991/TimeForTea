@@ -1,0 +1,513 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-image {
+  height: 100vh;
+  width: 98.6vw;
+  background-image: linear-gradient(
+      rgba(67, 67, 67, 0.5),
+      rgba(67, 67, 67, 0.5)
+    ),
+    url(images/main\ image.jpg);
+}
+
+.logo-image {
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.logo-icon {
+  height: 1.2rem;
+  width: auto;
+}
+
+.header-content {
+  color: white;
+  text-align: center;
+  padding-top: 12rem;
+  font-size: 2.8rem;
+  font-family: sans-serif;
+}
+
+.header-continue {
+  color: #333;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  width: 98.6vw;
+}
+
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-image: url("images/homepage\ image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.nav-bar {
+  padding: 1.2rem 4.8rem 1.2rem 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: black;
+  width: 98.6vw; */
+  background-color: green;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.nav-bar-content:link,
+.nav-bar-content:visited {
+  text-decoration: none;
+  color: #e6f2e6;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.nav-bar-content:hover,
+.nav-bar-content:active {
+  color: #80c080;
+}
+
+.aboutus-image {
+  width: 50vw;
+  height: auto;
+}
+
+.aboutus-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.8rem;
+  padding: 4.8rem;
+}
+
+.aboutus {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.about {
+  color: #cc8400;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.btn-link:link,
+.btn-link:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 0.6rem;
+  background-color: #cc8400;
+  color: white;
+  text-align: center;
+  margin-left: 46rem;
+  border-radius: 0.9rem;
+  transition: 0.3s;
+}
+
+.btn-link:hover,
+.btn-link:active {
+  background-color: white;
+  color: #cc8400;
+  transform: scale(1.2);
+}
+
+/* 
+.btn-enquire {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  margin-left: 36rem;
+  border: 1px solid currentColor;
+  border-radius: 0.9rem;
+  background-color: green;
+}
+
+.btn-link:link,
+.btn-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-link:hover,
+.btn-link:active {
+  color: green;
+  background-color: white;
+} */
+
+.header-continue {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  padding: 2.4rem;
+  color: #777;
+}
+
+.aboutus-content {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  line-height: 1.2;
+}
+
+.second {
+  padding-top: 1.8rem;
+}
+
+.menu {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #cc8400;
+  /* margin-bottom: 4.8rem; */
+}
+
+.menu-images {
+  width: 16rem;
+  height: 16rem;
+}
+
+.menu-content {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding-top: 1.8rem;
+}
+
+.menu-container {
+  display: flex;
+  padding: 4.8rem;
+  justify-content: space-around;
+}
+
+.menu-text {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 1.8rem;
+  color: #cc8400;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 0.9rem;
+}
+
+.image-parent {
+  overflow: hidden;
+}
+
+.image-parent img {
+  transition: all 0.4s;
+}
+
+.image-parent img:hover {
+  transform: scale(1.5);
+  overflow: hidden;
+}
+
+.text-connected {
+  margin-bottom: 1.8rem;
+}
+
+.connected {
+  width: 98.6vw;
+  height: 100vh;
+  background-color: #fefbf8;
+}
+
+.image-connected {
+  height: 30rem;
+  width: 30rem;
+}
+
+.connected {
+  display: flex;
+  justify-content: space-around;
+}
+
+.connected-second {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.connected-second-text {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #cc8400;
+  margin-bottom: 2.4rem;
+}
+
+.connected-list {
+  display: flex;
+  gap: 0.4rem;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #333;
+  list-style: none;
+  margin-top: 0.8rem;
+}
+
+.tick {
+  height: 1.8rem;
+  width: 1.8rem;
+  color: #cc8400;
+}
+
+.unit:link,
+.unit:visited {
+  text-decoration: none;
+  padding: 0.4rem;
+  background-color: green;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  border-radius: 0.9rem;
+  transition: all 0.4s;
+}
+
+.unit:hover,
+.unit:active {
+  color: green;
+  background-color: #fefbf8;
+}
+
+.bg-image {
+  width: 98.6vw;
+  height: 75vh;
+  background-image: linear-gradient(
+      rgba(100, 100, 100, 0.5),
+      rgba(100, 100, 100, 0.5)
+    ),
+    url(images/My\ project.jpg);
+}
+
+.bg-image-numbers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-1 {
+  font-size: 4.8rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.list-2 {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.bg-image-list {
+  margin-top: 12.5%;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 2.4rem;
+  justify-content: space-around;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.testimonials-h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: green;
+  margin: 2.4rem 1.2rem 2.4rem 1.2rem;
+}
+
+.testimonial-1,
+.testimonial-2,
+.testimonial-3 {
+  height: 26rem;
+  padding: 1.2rem;
+  border: 1px solid rgb(242, 240, 240);
+  border-radius: 0.9rem;
+  font-style: normal;
+  background-color: rgb(242, 240, 240);
+  /* margin: 1.2rem; */
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  font-weight: 100;
+  line-height: 1.8;
+  color: rgb(107, 106, 106);
+  margin-bottom: 2.4rem;
+}
+
+.customer {
+  margin-bottom: 2.4rem;
+  display: flex;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  border-bottom: 1px solid black;
+  background-color: rgb(242, 240, 240);
+  border-radius: 0.9rem;
+}
+
+.customer-name {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+.test-image {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+}
+
+.footer-contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  height: 100vh;
+  width: 98.6vw;
+  background-color: green;
+}
+
+.footer-content {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.contact {
+  text-decoration: none;
+  color: white;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+}
+
+.li {
+  list-style: none;
+}
+
+.social-icons {
+  color: white;
+  height: 3rem;
+  width: 3rem;
+}
+
+.columnfirst {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 1.8;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.column-second {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 1.8;
+  gap: 1.2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column-third {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 1.8;
+  gap: 0.2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.git {
+  padding: 1.6rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: green;
+}
+
+.form {
+  height: 28rem;
+  background-color: white;
+  border-radius: 0.9rem;
+}
+
+.input {
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+}
+
+.input-content {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2.4rem;
+}
+
+.submit {
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 0.9rem;
+}
+
+.final {
+  width: 98.6vw;
+  color: white;
+  font-family: sans-serif;
+  background-color: green;
+  text-align: center;
+}
