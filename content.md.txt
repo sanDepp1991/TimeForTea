@@ -1,3 +1,7 @@
 # test
 
 git branching
+
+## master test
+
+for git merge conflicts, create master test
