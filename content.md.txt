@@ -5,3 +5,7 @@ git branching
 ## new test
 
 for merge conflicts
+
+## master test
+
+for git merge conflicts, create master test
